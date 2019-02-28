@@ -1,0 +1,104 @@
+:root {
+
+}
+
+* {
+	padding: 0;
+	margin: 0;
+	border: 0;
+	outline: none;
+	box-sizing: border-box;
+	transition: all .3s ease-in-out;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+body, html {
+	min-height: 100%;
+	width: 100%;
+}
+
+.clear::after, .clear::before {
+	content: " ";
+	display: table;
+}
+
+.clear::after {
+	clear: both;
+}
+
+/* Main Styles */
+
+.white {
+	height: 800px;
+	width: 800px;
+	background: #fff;
+	margin: 0 auto;
+	position: relative;
+	border: 1px solid black;
+	
+}
+.black-row1 {
+	float: left;
+}
+.black {
+	height: 100px;
+	width: 100px;
+	background: #000;
+	position: absolute;
+}
+.black1 {
+	left: 100px;
+}
+.black2 {
+	left: 300px;
+}
+.black3 {
+	left: 500px;
+}
+.black4 {
+	left: 700px;
+}
+.black-row2 {
+	display: inline;
+	float: left;
+	margin-top: 100px;
+}
+.black12 {
+	left: 0px;
+}
+.black22 {
+	left: 200px;
+}
+.black32 {
+	left: 400px;
+}
+.black42 {
+	left: 600px;
+}
+.black-row3 {
+	float: left;
+	margin-top: 200px;
+}
+.black-row4 {
+	float: left;
+	margin-top: 300px;
+}
+.black-row5 {
+	float: left;
+	margin-top: 400px;
+}.black-row6 {
+	float: left;
+	margin-top: 500px;
+}
+.black-row7 {
+	float: left;
+	margin-top: 600px;
+}
+.black-row8 {
+	float: left;
+	margin-top: 700px;
+}
