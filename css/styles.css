@@ -32,73 +32,50 @@ body, html {
 
 /* Main Styles */
 
-.white {
-	height: 800px;
-	width: 800px;
+.desc {
+	height: 802px;
+	width: 802px;
 	background: #fff;
 	margin: 0 auto;
-	position: relative;
 	border: 1px solid black;
-	
+	position: relative;
 }
-.black-row1 {
-	float: left;
-}
-.black {
+
+.block {
 	height: 100px;
 	width: 100px;
+}
+.black {
 	background: #000;
-	position: absolute;
 }
-.black1 {
-	left: 100px;
+.white {
+	background: #fff;
 }
-.black2 {
-	left: 300px;
-}
-.black3 {
-	left: 500px;
-}
-.black4 {
-	left: 700px;
-}
-.black-row2 {
-	display: inline;
+
+.left>.block {
 	float: left;
+}
+.right>.block {
+	float: right;
+}
+.row2 {
 	margin-top: 100px;
 }
-.black12 {
-	left: 0px;
-}
-.black22 {
-	left: 200px;
-}
-.black32 {
-	left: 400px;
-}
-.black42 {
-	left: 600px;
-}
-.black-row3 {
-	float: left;
+.row3 {
 	margin-top: 200px;
 }
-.black-row4 {
-	float: left;
+.row4 {
 	margin-top: 300px;
 }
-.black-row5 {
-	float: left;
+.row5 {
 	margin-top: 400px;
-}.black-row6 {
-	float: left;
+}
+.row6 {
 	margin-top: 500px;
 }
-.black-row7 {
-	float: left;
+.row7 {
 	margin-top: 600px;
 }
-.black-row8 {
-	float: left;
+.row8 {
 	margin-top: 700px;
 }
